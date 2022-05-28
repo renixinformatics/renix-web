@@ -1,0 +1,32 @@
+.form-section {
+  width: 50%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.6558px;
+  line-height: 173.5%;
+  /* or 32px */
+
+  color: #000000;
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.form-section input{
+    border: 1.03643px solid #A7A7A7;
+}
+
+.form-section .starRed{
+    color: red;
+}
+
+.form-section textarea {
+    resize: none;
+  }
+/* .form-section .label-section{
+    di
+} */

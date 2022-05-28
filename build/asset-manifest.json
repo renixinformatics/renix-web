@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b30d7046.chunk.css",
+    "main.js": "/static/js/main.ee2ac412.chunk.js",
+    "main.js.map": "/static/js/main.ee2ac412.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3cb4872f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3cb4872f.js.map",
+    "static/css/2.f4c56af9.chunk.css": "/static/css/2.f4c56af9.chunk.css",
+    "static/js/2.d53b435b.chunk.js": "/static/js/2.d53b435b.chunk.js",
+    "static/js/2.d53b435b.chunk.js.map": "/static/js/2.d53b435b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f4c56af9.chunk.css.map": "/static/css/2.f4c56af9.chunk.css.map",
+    "static/css/main.b30d7046.chunk.css.map": "/static/css/main.b30d7046.chunk.css.map",
+    "static/js/2.d53b435b.chunk.js.LICENSE.txt": "/static/js/2.d53b435b.chunk.js.LICENSE.txt",
+    "static/media/Logo.c65ee484.svg": "/static/media/Logo.c65ee484.svg",
+    "static/media/car.803d999f.svg": "/static/media/car.803d999f.svg",
+    "static/media/cart.556bfdc0.svg": "/static/media/cart.556bfdc0.svg",
+    "static/media/copyright.823963ed.svg": "/static/media/copyright.823963ed.svg",
+    "static/media/finance.798c87f6.svg": "/static/media/finance.798c87f6.svg",
+    "static/media/health.df4afd29.svg": "/static/media/health.df4afd29.svg",
+    "static/media/homePage.css": "/static/media/image.21dbf08d.svg",
+    "static/media/mail.9c5157ef.svg": "/static/media/mail.9c5157ef.svg",
+    "static/media/map.3ae3069d.svg": "/static/media/map.3ae3069d.svg",
+    "static/media/phone.d39155c3.svg": "/static/media/phone.d39155c3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cb4872f.js",
+    "static/css/2.f4c56af9.chunk.css",
+    "static/js/2.d53b435b.chunk.js",
+    "static/css/main.b30d7046.chunk.css",
+    "static/js/main.ee2ac412.chunk.js"
+  ]
+}

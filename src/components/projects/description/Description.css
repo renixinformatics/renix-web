@@ -1,0 +1,49 @@
+.description-section {
+  display: flex;
+  width: 1300px;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 23px rgba(0, 71, 191, 0.1);
+  margin-top: 60px;
+}
+
+.description-section .title-section {
+  width: 20%;
+  background:  linear-gradient(180deg, #2AA9FF 66.64%, #0047BF 108.82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.description-section .desc {
+  width: 60%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 44px;
+  /* or 220% */
+
+  text-transform: capitalize;
+
+  color: #797979;
+}
+
+.description-section .last-sec {
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 44px;
+  /* identical to box height, or 183% */
+
+  text-transform: capitalize;
+
+  color: #000000;
+
+  width: 20%;
+}

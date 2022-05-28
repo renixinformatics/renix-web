@@ -1,0 +1,27 @@
+.project-section {
+    width: 100%;
+    padding-bottom: 9rem;
+    text-align: center;
+  }
+  
+  .project-section .project-header {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 44px;
+  }
+  
+  .project-section .project-content {
+      /* margin-top: 50px; */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.8602px;
+    line-height: 49px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  

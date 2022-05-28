@@ -1,0 +1,56 @@
+.consultation-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.consultation-section .header-section {
+  color: #1e1e1e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.consultation-section .content-section {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  margin-top: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.8602px;
+  line-height: 49px;
+}
+
+.section-class {
+  width: 100%;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+}
+
+.footer-section {
+  margin-top: 40px;
+}
+
+.footer-section button {
+  background: linear-gradient(180deg, #2aa9ff -28.44%, #0047bf 144.5%);
+  height: 70px;
+  width: 250px;
+  border-radius: 13px;
+  font-weight: 500;
+}
+
+
+.section-class span{
+  background:  linear-gradient(180deg, #2AA9FF -28.44%, #0047BF 144.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

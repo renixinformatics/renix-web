@@ -1,0 +1,43 @@
+.queryForm-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.queryForm-section .queryform {
+  width: 70%;
+  background: #ffffff;
+  box-shadow: 0px 2.61981px 15.0639px rgba(0, 71, 191, 0.1);
+  border-radius: 13.099px;
+}
+
+.queryForm-section .query-input{
+    padding: 20px;
+}
+
+.queryForm-section .query-row-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+}
+
+.queryForm-section .query-footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.queryForm-section .query-footer-section button{
+    width: 150px;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+.queryForm-section .error-message{
+  color: red;
+}
