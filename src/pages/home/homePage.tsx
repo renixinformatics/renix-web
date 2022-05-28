@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 // import Button from '../../components/button/button';
 import { useSelector, useDispatch } from "react-redux";
-import { loadHomeAction, getButtonData } from "../../actions/homeActions";
+import {  getButtonData } from "../../actions/homeActions";
 import AboutUs from "../../components/aboutUs/AboutUs";
 import Expertise from "../../components/expertise/Expertise";
 import Footer from "../../components/footer/Footer";
@@ -29,7 +29,7 @@ const HomePage = () => {
   return (
     <div
       onClick={() => {
-        dispatch(loadHomeAction(true));
+        // dispatch(loadHomeAction(true));
         dispatch(getButtonData("priya"));
       }}
     >

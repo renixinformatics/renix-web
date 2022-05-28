@@ -13,16 +13,16 @@ export interface homeAction {
     payload: string;
 }
 
-export interface loadHomeAction {
-    type: homeActionTypes.LOAD_HOME;
-    loading: boolean;
-}
+// export interface loadHomeAction {
+//     type: homeActionTypes.LOAD_HOME;
+//     loading: boolean;
+// }
 
 export interface errorAction {
     type: homeActionTypes.ERROR;
     errorMessage: string;
 }
-export type homeActions = homeAction | loadHomeAction | errorAction;
+export type homeActions = homeAction | errorAction;
 
 /*<Promise<Return Type>, State Interface, Type of Param, Type of Action> */
 export const getButtonData: ActionCreator<ThunkAction<Promise<any>, homeState, null, homeAction>> = (name: string) => {
@@ -31,19 +31,19 @@ export const getButtonData: ActionCreator<ThunkAction<Promise<any>, homeState, n
             // let result = await (await fetch(`https://dog.ceo/api/breed/${dogBreed}/images/random`)).json();
             // if (result.status !== 'success')
             //     throw new Error(result.message);
-             dispatch({ type: homeActionTypes.HOME,payload: name });
+            //  dispatch({ type: homeActionTypes.HOME,payload: name });
              setTimeout(() => {
-            dispatch({type: homeActionTypes.LOAD_HOME, loading: false});
+            // dispatch({type: homeActionTypes.LOAD_HOME, loading: false});
                  
              }, 3000);
 
         } catch (err) {
         console.error(err);
-        dispatch({type: homeActionTypes.ERROR, errorMessage: err});
-        dispatch({type: homeActionTypes.LOAD_HOME, loading: false});
+        // dispatch({type: homeActionTypes.ERROR, errorMessage: err});
+        // dispatch({type: homeActionTypes.LOAD_HOME, loading: false});
         };
     };
 };
 
-export const loadHomeAction: ActionCreator<ThunkAction<any, homeState, null, loadHomeAction>> = (shouldLoad: boolean) => 
-    (dispatch: Dispatch) => dispatch({type: homeActionTypes.LOAD_HOME, loading: shouldLoad})
+// export const loadHomeAction: ActionCreator<ThunkAction<any, homeState, null, loadHomeAction>> = (shouldLoad: boolean) => 
+//     (dispatch: Dispatch) => dispatch({type: homeActionTypes.LOAD_HOME, loading: shouldLoad})

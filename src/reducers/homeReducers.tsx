@@ -24,12 +24,12 @@ export const homeReducer: Reducer<homeState, homeActions> = (
           homeData:action.payload
         };
       }
-      case homeActionTypes.LOAD_HOME: {
-        return {
-          ...state,
-          loading: action.loading
-        };
-      }
+      // case homeActionTypes.LOAD_HOME: {
+      //   return {
+      //     ...state,
+      //     loading: action.loading
+      //   };
+      // }
       case homeActionTypes.ERROR: {
         return {
           ...state,
