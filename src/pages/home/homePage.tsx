@@ -25,7 +25,7 @@ const HomePage = () => {
   const errorMessage = useSelector(
     (state: IAppState) => state.homeState.errorMessage
   );
-  const reducerData = useSelector((state: IAppState) => state.homeState);
+
   return (
     <div
       onClick={() => {

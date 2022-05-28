@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import Input from "../../ui-kit/Input/Input";
 import "./QueryForm.css";
 import emailjs from "@emailjs/browser";
@@ -7,8 +7,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 function QueryForm(props) {
   const form = useRef();
-  const [formlist1, setFormlist1] = useState(["Name", "Mobile Number"]);
-  const [formlist2, setFormlist2] = useState(["Company", "Email"]);
   const [showError,setShowError]= useState(false)
   const [formData, setFormData] = useState({
     Name: "",
