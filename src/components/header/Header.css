@@ -1,6 +1,6 @@
 .navbar,
 .renix-nav {
-  position: sticky;
+  position: fixed;
   backdrop-filter: blur(90px) !important;
   height: 80px;
   /* font-family: "Poppins"; */

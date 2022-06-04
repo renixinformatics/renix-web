@@ -24,12 +24,13 @@ function Footer() {
         <div className='renix-footer-section'>
            <div className='renix-addres'>
             {
-                footerData.map((each)=>{
+                footerData.map((each,i)=>{
                     return  <div className='renix-footer-data'>
                     <div className='renix-footer-icon'>
                         <img src={each.title}/>
                     </div>
-                    <div className='renix-footer-data'>
+                    <div className={`renix-footer-data ${i==0?"add-width":""}`}>
+
                     {each.data}
                     </div>
                 </div>

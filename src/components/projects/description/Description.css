@@ -16,6 +16,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
+  text-align: start;
 }
 
 .description-section .desc {
@@ -25,6 +26,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 44px;
+  text-align: start;
   /* or 220% */
 
   text-transform: capitalize;

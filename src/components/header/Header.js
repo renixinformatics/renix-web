@@ -10,8 +10,8 @@ function Header() {
           <img src={logoIcon} />
         </a>
         <form className="d-flex form-header-section" role="search">
-          <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">
+          <div className="navbar-nav collapse" id="navbarToggleExternalContent">
+            <a className="nav-link" aria-current="page" href="#">
               Work
             </a>
             <a className="nav-link" href="#">

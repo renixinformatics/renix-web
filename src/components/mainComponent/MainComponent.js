@@ -3,10 +3,10 @@ import "./MainComponent.css";
 
 function MainComponent(props) {
   return (
-    <section className="section-class">
+    <section className="section-class first-section">
       <div className="consultation-section">
         <div className="header-section">
-          We help you in <span>automate and</span> <br/> <span>augment</span> your business workflows
+        We help enterprises around the world <span>automate and</span> <br/> <span>augment</span> their business workflows
         </div>
         <div className="content-section">
           We are a team of AI experts who combine state of the art services<br/>

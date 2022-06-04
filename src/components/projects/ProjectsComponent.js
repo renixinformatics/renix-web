@@ -10,37 +10,36 @@ function ProjectsComponent() {
       {
         title: "Conversational AI Solutions",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio",
+          "Deliver excellent customer service and enhance the user’s experience via our exceptionally crafted Chatbots and VoiceAI.",
         lastsection: "Learn More",
       },
       {
         title: "Document AI",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio",
+          "Derive fast, reliable and quality OCR from complex documents  in seconds.",
         lastsection: "Learn More",
       },
       {
         title: "Computer Vision Solutions",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio",
+        description:"Easily capture, monitor and analyse visual information.",
         lastsection: "Learn More",
       },
       {
         title: "Recommendation Engine",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio",
+          "Offer relevant suggestions to the user’s and increase the chances of conversion through personalised recommendations.",
         lastsection: "Learn More",
       },
       {
         title: "Data Analytics",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio",
+          "With the support of our in-house experts analysts, leverage data to optimise resources, make impactful business decisions and enforce smart strategies.",
         lastsection: "Learn More",
       },
       {
         title: "AI Consultancy",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio",
+          " Our AI wizards will offer innovative algorithms and machine learning applications that’ll make your business smart.",
         lastsection: "Learn More",
       },
     ])

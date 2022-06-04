@@ -8,7 +8,7 @@
 }
 
 .queryForm-section .queryform {
-  width: 70%;
+  width: 50%;
   background: #ffffff;
   box-shadow: 0px 2.61981px 15.0639px rgba(0, 71, 191, 0.1);
   border-radius: 13.099px;
@@ -40,4 +40,8 @@
 
 .queryForm-section .error-message{
   color: red;
+}
+
+.queryForm-section .btn-dark{
+  width: 120px;
 }

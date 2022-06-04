@@ -54,3 +54,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.first-section{
+  padding-top: 15rem !important;
+}
