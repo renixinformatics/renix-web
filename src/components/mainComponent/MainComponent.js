@@ -6,7 +6,7 @@ function MainComponent(props) {
     <section className="section-class first-section">
       <div className="consultation-section">
         <div className="header-section">
-        We help enterprises around the world <span>automate and</span> <br/> <span>augment</span> their business workflows
+        We help enterprises <span>automate and</span> <br/> <span>augment</span> their business workflows
         </div>
         <div className="content-section">
           We are a team of AI experts who combine state of the art services<br/>

@@ -2,9 +2,9 @@ import React from "react";
 import "./Header.css";
 import logoIcon from "../../assets/logo/Logo.svg"
 
-function Header() {
+function Header(props) {
   return (
-    <nav className="navbar renix-nav navbar-expand-lg bg-light">
+    <nav className="navbar renix-nav navbar-expand-lg bg-color">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img src={logoIcon} />
@@ -21,7 +21,7 @@ function Header() {
               About us
             </a>
             <a className="nav-link ">Blog</a>
-            <a className="nav-link ">Contact</a>
+            <a className="nav-link " onClick={()=>{props.scrollClicked()}}>Contact</a>
           </div>
         </form>
 

@@ -27,6 +27,6 @@
 .form-section textarea {
     resize: none;
   }
-/* .form-section .label-section{
-    di
-} */
+.form-section .label-section{
+    margin-bottom: 10px;
+}

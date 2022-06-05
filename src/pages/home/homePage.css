@@ -3,4 +3,10 @@
 }
 .section-bg{
     background: url(../../assets/home/image.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.nav-link{
+    font-weight: 500;
 }

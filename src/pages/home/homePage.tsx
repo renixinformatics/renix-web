@@ -34,7 +34,7 @@ const HomePage = () => {
       }}
     >
       <div className="section-bg">
-        <Header />
+        <Header scrollClicked={executeScroll} />
         <MainComponent scrollClicked={executeScroll}/>
         <AboutUs />
       </div>
