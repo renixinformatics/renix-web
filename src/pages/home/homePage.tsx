@@ -27,12 +27,7 @@ const HomePage = () => {
   );
 
   return (
-    <div
-      onClick={() => {
-        // dispatch(loadHomeAction(true));
-        dispatch(getButtonData("priya"));
-      }}
-    >
+    <div>
       <div className="section-bg">
         <Header scrollClicked={executeScroll} />
         <MainComponent scrollClicked={executeScroll}/>

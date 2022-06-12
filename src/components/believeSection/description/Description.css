@@ -1,0 +1,39 @@
+.aboutus-description{
+    width: 25%;
+    margin-right: 5%;
+}
+
+.believe-desc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 55vh;
+}
+
+.aboutus-description .believe-icon{
+    height: 20vh;
+}
+
+.aboutus-description .believe-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37px;
+    text-transform: capitalize;
+    color: #EDEDED;
+    height: 5vh;
+    margin-top: 10px;
+}
+
+.aboutus-description .believe-content{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #EDEDED;
+    height: 30vh;
+    margin-top: 10px;
+}

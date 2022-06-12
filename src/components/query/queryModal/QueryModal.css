@@ -1,0 +1,62 @@
+.query-modal-wrapper{
+    position: absolute;
+    width: 1000px;
+    height: 520px;
+    left:180px;
+    background: #FFFFFF;
+    box-shadow: 0px 9.62245px 14.4337px -2.40561px rgba(0, 0, 0, 0.12), 0px 4.81122px 9.62245px -2.40561px rgba(0, 0, 0, 0.07);
+    border-radius: 19.2449px;
+}
+/* .query-modal-wrapper .internal-modal{
+    width: 80%;
+} */
+
+.query-modal-wrapper .query-section{
+    position: relative;
+}
+.query-modal-wrapper .queryform {
+    width: 100%;
+    /* background: #ffffff;
+    box-shadow: 0px 2.61981px 15.0639px rgba(0, 71, 191, 0.1);
+    border-radius: 13.099px; */
+  }
+  
+  .query-modal-wrapper .query-input{
+      padding: 20px;
+  }
+  
+  .query-modal-wrapper .query-row-section{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: start;
+  }
+  
+  .query-modal-wrapper .query-footer-section{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .query-modal-wrapper .query-footer-section button{
+      width: 150px;
+      font-weight: 600;
+      margin: 30px 0px;
+  }
+  
+  .query-modal-wrapper .error-message{
+    color: red;
+  }
+  
+  .query-modal-wrapper .btn-dark{
+    width: 120px;
+  }
+
+  .query-modal-wrapper .query-close{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
+

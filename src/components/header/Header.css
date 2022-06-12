@@ -36,3 +36,7 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.isActive{
+  color: #0047BF !important;
+}
