@@ -1,7 +1,7 @@
 .navbar,
 .renix-nav {
   position: fixed;
-  backdrop-filter: blur(90px) !important;
+  backdrop-filter: blur(30px) !important;
   height: 80px;
   /* font-family: "Poppins"; */
   font-style: normal;
@@ -39,4 +39,8 @@
 
 .isActive{
   color: #0047BF !important;
+}
+
+.navbar .nav-link{
+  cursor: pointer;
 }

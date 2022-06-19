@@ -15,7 +15,7 @@ function AboutusMainSection() {
         </div>
       </div>
       <div className="aboutus-image">
-        <img src={aboutusimg} />
+        <img src={aboutusImage} />
       </div>
     </div>
   );
